@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Debug Session
-        uses: csexton/debugger-action@master
+      - name: SSH Action
+        uses: invi5H/ssh-action@v1.0.0
